@@ -20,11 +20,6 @@ Prerequisites
 
 Python 3 installed on your machine.
 
-Running the Server
-
-Clone the repository to your local machine:
-
-git clone https://github.com/yourusername/simple-file-upload-server.git
 cd simple-file-upload-server
 
 Run the server:
@@ -33,7 +28,11 @@ python3 upload_server.py
 
 Open your browser and navigate to:
 
-http://0.0.0.0:8080
-
 Use the web interface to upload files.
+
+Directory Structure
+
+upload_server.py: Main server script.
+
+uploads/: Directory where uploaded files are stored.
 
